@@ -4,7 +4,7 @@ export default class MyCover extends Component{ //書籍の誤記 MyBook->MyCove
     render(){
         const url = `https://wings.msn.to/books/${this.props.isbn}/${this.props.isbn}.jpg`;
         return(
-            <img src={url} title={this.props.title} alt="" />
+            <img src={url} title={this.props.title} alt="title" />
         );
     }
 }
